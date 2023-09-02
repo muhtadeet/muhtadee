@@ -17,7 +17,7 @@ function Arts() {
     <div className="w-full max-w-5xl p-5 pb-10 mx-auto mb-10 gap-5 columns-3 space-y-5">
       <Tooltip
         content={
-          <div className="w-full max-w-3xl px-1 py-2">
+          <div className="w-full max-w-lg px-1 py-2">
             <Card>
             <Image src={art1} />
             <CardFooter className="gap-1">
@@ -43,7 +43,7 @@ function Arts() {
 
       <Tooltip
         content={
-          <div className="w-full max-w-3xl px-1 py-2">
+          <div className="w-full max-w-lg px-1 py-2">
             <Card>
             <Image src={art2} />
             <CardFooter className="gap-1">
@@ -69,7 +69,7 @@ function Arts() {
 
       <Tooltip
         content={
-          <div className="w-full max-w-3xl px-1 py-2">
+          <div className="w-full max-w-lg px-1 py-2">
             <Card>
             <Image src={art3} />
             <CardFooter className="gap-1">
@@ -95,7 +95,7 @@ function Arts() {
 
       <Tooltip
         content={
-          <div className="w-full max-w-3xl px-1 py-2">
+          <div className="w-full max-w-lg px-1 py-2">
             <Card>
             <Image src={art4} />
             <CardFooter className="gap-1">
@@ -121,7 +121,7 @@ function Arts() {
 
       <Tooltip
         content={
-          <div className="w-full max-w-3xl px-1 py-2">
+          <div className="w-full max-w-lg px-1 py-2">
             <Card>
             <Image src={art5} />
             <CardFooter className="gap-1">
@@ -147,7 +147,7 @@ function Arts() {
 
       <Tooltip
         content={
-          <div className="w-full max-w-3xl px-1 py-2">
+          <div className="w-full max-w-lg px-1 py-2">
             <Card>
             <Image src={art6} />
             <CardFooter className="gap-1">
