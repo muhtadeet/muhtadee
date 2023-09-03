@@ -30,10 +30,10 @@ function Cover() {
       <Card className="mt-14 w-lg max-w-2xl min-w-lg">
         <CardBody>
           <div className=" flex flex-row justify-center items-end">
-            <p className="font-abc text-xl">&nbsp;&nbsp;Hello there!&nbsp;</p><p className="font-abc text-xl">I'm&nbsp;</p><p className="font-abc text-xl">Muhtadee Taron&nbsp;</p><img width="40px" src={Wave} alt="hand wave"/>
+            <p className="font-abc text-xl md:text-md">&nbsp;&nbsp;Hello there!&nbsp;</p><p className="font-abc text-xl md:text-md">I'm&nbsp;</p><p className="font-abc text-xl md:text-md">Muhtadee Taron&nbsp;</p><img width="40px" src={Wave} alt="hand wave"/>
           </div>
           <div className=" h-10 flex flex-col justify-center items-center">
-            <p className="font-abc text-xs">A passionate Photographer and Digital Artist from Dhaka, Bangladesh.</p>
+            <p className="font-abc text-xs md:text-s">A passionate Photographer and Digital Artist from Dhaka, Bangladesh.</p>
           </div>
         </CardBody>
       </Card>
