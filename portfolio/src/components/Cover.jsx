@@ -20,7 +20,7 @@ function Cover() {
           <Image
             width={1080}
             alt="Chrysilla volupe"
-            className='w-full max-w-6xl'
+            className='w-full max-w-4xl'
             src={DSC_3799}
           />
         </Tooltip>
