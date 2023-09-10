@@ -32,6 +32,9 @@ function Arts() {
           </div>
         }
         placement="right"
+        className="w-[55%]"
+        delay={100}
+        closeDelay={100}
       >
       <Image
         width={300}
@@ -58,6 +61,9 @@ function Arts() {
           </div>
         }
         placement="right"
+        className="w-[55%]"
+        delay={100}
+        closeDelay={100}
       >
         <Image
           width={300}
@@ -84,6 +90,9 @@ function Arts() {
           </div>
         }
         placement="left"
+        className="w-[55%]"
+        delay={100}
+        closeDelay={100}
       >
         <Image
           width={300}
@@ -110,6 +119,9 @@ function Arts() {
           </div>
         }
         placement="top"
+        className="w-[55%]"
+        delay={100}
+        closeDelay={100}
       >
         <Image
           width={300}
@@ -136,6 +148,9 @@ function Arts() {
           </div>
         }
         placement="left"
+        className="w-[55%]"
+        delay={100}
+        closeDelay={100}
       >
         <Image
           width={300}
@@ -162,6 +177,9 @@ function Arts() {
           </div>
         }
         placement="left"
+        className="w-[55%]"
+        delay={100}
+        closeDelay={100}
       >
         <Image
           width={300}

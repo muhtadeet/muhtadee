@@ -18,7 +18,7 @@ function Photos() {
     <div className="w-full max-w-5xl p-5 pb-10 mx-auto mb-10 gap-5 columns-3 space-y-5">
       <Tooltip
         content={
-          <div className="w-full max-w-3xl px-1 py-2">
+          <div className="w-full max-w-unit-3xl px-1 py-2">
             <Card>
             <Image src={photo1} />
             <CardFooter className="gap-1">
@@ -33,6 +33,9 @@ function Photos() {
           </div>
         }
         placement="right"
+        className="w-[55%]"
+        delay={100}
+        closeDelay={100}
       >
       <Image
         width={300}
@@ -59,6 +62,9 @@ function Photos() {
           </div>
         }
         placement="right"
+        className="w-[55%]"
+        delay={100}
+        closeDelay={100}
       >
         <Image
           width={300}
@@ -85,6 +91,9 @@ function Photos() {
           </div>
         }
         placement="left"
+        className="w-[55%]"
+        delay={100}
+        closeDelay={100}
       >
         <Image
           width={300}
@@ -111,6 +120,9 @@ function Photos() {
           </div>
         }
         placement="top"
+        className="w-[55%]"
+        delay={100}
+        closeDelay={100}
       >
         <Image
           width={300}
@@ -137,6 +149,9 @@ function Photos() {
           </div>
         }
         placement="left"
+        className="w-[55%]"
+        delay={100}
+        closeDelay={100}
       >
         <Image
           width={300}
@@ -163,6 +178,9 @@ function Photos() {
           </div>
         }
         placement="left"
+        className="w-[55%]"
+        delay={100}
+        closeDelay={100}
       >
         <Image
           width={300}
