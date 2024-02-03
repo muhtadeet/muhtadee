@@ -90,120 +90,120 @@ const TiltCard = () => {
   return (
     <>
       <div className="flex flow-row">
-        <motion.div
-          variants={items}
-          initial="initial"
-          whileInView="animate"
-          onMouseMove={handleMouseMove}
-          onMouseLeave={handleMouseLeave}
-          style={{
-            rotateY,
-            rotateX,
-            transformStyle: "preserve-3d",
-          }}
-          className="relative h-96 w-80 rounded-xl"
-          whileHover={{
-            scale: 1.1,
-            transition: { duration: 1 },
-          }}
-          whileTap={{ scale: 0.9 }}
-          transition={{ type: "spring", stiffness: 400, damping: 10 }}
-        >
-          <a href="/landscape">
-          <div
+        <a href="/landscape">
+          <motion.div
+            variants={items}
+            initial="initial"
+            whileInView="animate"
+            onMouseMove={handleMouseMove}
+            onMouseLeave={handleMouseLeave}
             style={{
-              transform: "translateZ(75px)",
+              rotateY,
+              rotateX,
               transformStyle: "preserve-3d",
             }}
-            className="absolute bg-cover bg-center bg-[url('./components/Photos/DSC_2437.jpg')] inset-4 grid place-content-center rounded-xl bg-black shadow-lg"
+            className="relative h-96 w-80 rounded-xl"
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: 1 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
           >
-            <p
+            <div
               style={{
-                transform: "translateZ(50px)",
+                transform: "translateZ(75px)",
+                transformStyle: "preserve-3d",
               }}
-              className="text-center flex justify-center items-center text-4xl text-white transition-all ease-in-out hover:bg-black/40 bg-black/20 h-96 w-80 font-lato font-bold"
+              className="absolute bg-cover bg-center bg-[url('./components/Photos/DSC_2437.jpg')] inset-4 grid place-content-center rounded-xl bg-black shadow-lg"
             >
-              Landscape
-            </p>
-          </div>
-          </a>
-        </motion.div>
-        <motion.div
-          variants={items2}
-          initial="initial"
-          whileInView="animate"
-          onMouseMove={handleMouseMove}
-          onMouseLeave={handleMouseLeave}
-          style={{
-            rotateY,
-            rotateX,
-            transformStyle: "preserve-3d",
-          }}
-          className="relative h-96 w-80 rounded-xl mx-40"
-          whileHover={{
-            scale: 1.1,
-            transition: { duration: 1 },
-          }}
-          whileTap={{ scale: 0.9 }}
-          transition={{ type: "spring", stiffness: 400, damping: 10 }}
-        >
-          <a href="/macro">
-          <div
+              <p
+                style={{
+                  transform: "translateZ(50px)",
+                }}
+                className="text-center flex justify-center items-center text-4xl text-white transition-all ease-in-out hover:bg-black/40 bg-black/20 h-96 w-80 font-lato font-bold"
+              >
+                Landscape
+              </p>
+            </div>
+          </motion.div>
+        </a>
+        <a href="/macro">
+          <motion.div
+            variants={items2}
+            initial="initial"
+            whileInView="animate"
+            onMouseMove={handleMouseMove}
+            onMouseLeave={handleMouseLeave}
             style={{
-              transform: "translateZ(75px)",
+              rotateY,
+              rotateX,
               transformStyle: "preserve-3d",
             }}
-            className="absolute bg-cover bg-center bg-[url('./components/Photos/DSC_3799.jpg')] inset-4 grid place-content-center rounded-xl bg-black shadow-lg"
+            className="relative h-96 w-80 rounded-xl mx-40"
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: 1 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
           >
-            <p
+            <div
               style={{
-                transform: "translateZ(50px)",
+                transform: "translateZ(75px)",
+                transformStyle: "preserve-3d",
               }}
-              className="text-center flex justify-center items-center text-4xl text-white transition-all ease-in-out hover:bg-black/40 bg-black/20 h-96 w-80 font-lato font-bold"
+              className="absolute bg-cover bg-center bg-[url('./components/Photos/DSC_3799.jpg')] inset-4 grid place-content-center rounded-xl bg-black shadow-lg"
             >
-              Macro
-            </p>
-          </div>
-          </a>
-        </motion.div>
-        <motion.div
-          variants={items3}
-          initial="initial"
-          whileInView="animate"
-          onMouseMove={handleMouseMove}
-          onMouseLeave={handleMouseLeave}
-          style={{
-            rotateY,
-            rotateX,
-            transformStyle: "preserve-3d",
-          }}
-          className="relative h-96 w-80 rounded-xl"
-          whileHover={{
-            scale: 1.1,
-            transition: { duration: 1 },
-          }}
-          whileTap={{ scale: 0.9 }}
-          transition={{ type: "spring", stiffness: 400, damping: 10 }}
-        >
-          <a href="/wildlife">
-          <div
+              <p
+                style={{
+                  transform: "translateZ(50px)",
+                }}
+                className="text-center flex justify-center items-center text-4xl text-white transition-all ease-in-out hover:bg-black/40 bg-black/20 h-96 w-80 font-lato font-bold"
+              >
+                Macro
+              </p>
+            </div>
+          </motion.div>
+        </a>
+        <a href="/wildlife">
+          <motion.div
+            variants={items3}
+            initial="initial"
+            whileInView="animate"
+            onMouseMove={handleMouseMove}
+            onMouseLeave={handleMouseLeave}
             style={{
-              transform: "translateZ(75px)",
+              rotateY,
+              rotateX,
               transformStyle: "preserve-3d",
             }}
-            className="absolute bg-cover bg-center bg-[url('./components/Photos/DSC_1069.jpg')] inset-4 grid place-content-center rounded-xl bg-black shadow-lg"
+            className="relative h-96 w-80 rounded-xl"
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: 1 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
           >
-            <p
+            <div
               style={{
-                transform: "translateZ(50px)",
+                transform: "translateZ(75px)",
+                transformStyle: "preserve-3d",
               }}
-              className="text-center flex justify-center items-center text-4xl text-white transition-all ease-in-out hover:bg-black/40 bg-black/20 h-96 w-80 font-lato font-bold"
+              className="absolute bg-cover bg-center bg-[url('./components/Photos/DSC_1069.jpg')] inset-4 grid place-content-center rounded-xl bg-black shadow-lg"
             >
-              Wildlife
-            </p>
-          </div>
-          </a>
-        </motion.div>
+              <p
+                style={{
+                  transform: "translateZ(50px)",
+                }}
+                className="text-center flex justify-center items-center text-4xl text-white transition-all ease-in-out hover:bg-black/40 bg-black/20 h-96 w-80 font-lato font-bold"
+              >
+                Wildlife
+              </p>
+            </div>
+          </motion.div>
+        </a>
       </div>
     </>
   );
