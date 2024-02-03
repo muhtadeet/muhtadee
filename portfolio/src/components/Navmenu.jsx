@@ -1,74 +1,142 @@
-import React from "react";
-import {Navbar, NavbarBrand, NavbarContent, NavbarMenuToggle, NavbarItem, NavbarMenuItem, NavbarMenu, Link} from "@nextui-org/react";
-import Logo from './Logo.jsx';
+import React, { useState, useEffect, useRef } from "react";
+import {
+  Navbar
+} from "@nextui-org/react";
+// import Logo from "./Logo";
+// import { Link } from "react-scroll";
+// import { animateScroll as scroll } from "react-scroll";
+import FramerMgBtn from "./FramerMgBtn";
+import { AnimatePresence } from "framer-motion";
+import Nav from "./Menu.jsx";
+// import gsap from "gsap";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-function Navmenu() {
+export default function App() {
+  const [isMenuActive, setIsMenuActive] = React.useState(false);
 
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  // useLayoutEffect(() => {
+  //   gsap.registerPlugin(ScrollTrigger);
+  //   gsap.to(burger.current, {
+  //     scrollTrigger: {
+  //       trigger: document.documentElement,
+  //       start: 0,
+  //       end: 10,
+  //       onLeave: () => {
+  //         gsap.to(burger.current, {
+  //           scale: 1,
+  //           duration: 0.25,
+  //           ease: "power1.out",
+  //         });
+  //       },
+  //       onEnterBack: () => {
+  //         gsap.to(
+  //           burger.current,
+  //           { scale: 1, duration: 0.25, ease: "power1.out" },
+  //           setIsActive(false)
+  //         );
+  //       },
+  //     },
+  //   });
+  // }, []);
+
+  const header = useRef(null);
+  const [isActive, setIsActive] = useState(false);
+  const burger = useRef(null);
+
+  useEffect(() => {
+    if (isActive) setIsActive(false);
+  }, [isActive]);
 
   return (
-    <Navbar isBordered isMenuOpen={isMenuOpen} 
-            shouldHideOnScroll onMenuOpenChange={setIsMenuOpen}>
-      <NavbarContent>
-        <NavbarMenuToggle
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden"
-        />
+    <>
+    <div className="flex justify-start cursor-pointer"><a href="/home" className="fixed z-40 no-underline transition ease-in-out duration-300 hover:text-white text-white p-10 font-allison text-5xl">Muhtadee Taron</a></div>
+    <Navbar
+      ref={header}
+      className="bg-transparent"
+      isBlurred="false"
+      maxWidth="2xl"
+      position="static"
+    >
+      {/* <NavbarContent>
         <NavbarBrand>
-          <Link href="/home">
-            <Logo />
-          </Link>
-        </NavbarBrand>
-      </NavbarContent>
+          <Logo />
+        </NavbarBrand> */}
+      {/* </NavbarContent>
+      <div className="font-ubuntu font-semibold">
+        <NavbarContent>
+          <NavbarItem>
+            <FramerMgBtn>
+              <a
+                href="/home"
+                className="text-white text-lg cursor-pointer transition ease-in-out duration-300 hover:text-light-blue-600"
+                color="foreground"
+              >
+                Home
+              </a>
+            </FramerMgBtn>
+          </NavbarItem> */}
 
-      <NavbarContent className="hidden sm:flex gap-3" justify="center">
-        <NavbarItem>
-          <Link href="/home" >
-            <p className='font-abc p-10 text-[1.3rem] text-black transition ease-in-out delay-150 hover:text-gray-500 duration-300'>Home</p>
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link href="/photos">
-            <p className='font-abc p-10 text-[1.3rem] text-black transition ease-in-out delay-150 hover:text-gray-500 duration-300'>Photos</p>
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link href="/arts">
-            <p className='font-abc p-10 text-[1.3rem] text-black transition ease-in-out delay-150 hover:text-gray-500 duration-300'>Arts</p>
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link href="/contact">
-            <p className='font-abc p-10 text-[1.3rem] text-black transition ease-in-out delay-150 hover:text-gray-500 duration-300'>Contact</p>
-          </Link>
-        </NavbarItem>
-      </NavbarContent>
+          {/* <NavbarItem>
+            <FramerMgBtn>
+              <a
+                className="text-lg cursor-pointer transition ease-in-out duration-300 hover:text-light-blue-600"
+                color="foreground"
+                to="about"
+                href="/contact"
+              >
+                About
+              </a>
+            </FramerMgBtn>
+          </NavbarItem>
+          <NavbarItem>
+            <FramerMgBtn>
+              <Link
+                className="text-lg cursor-pointer transition ease-in-out duration-300 hover:text-light-blue-600"
+                color="foreground"
+                to="projects"
+                smooth={true}
+                duration={1000}
+              >
+                Projects
+              </Link>
+            </FramerMgBtn>
+          </NavbarItem>
+          <NavbarItem>
+            <FramerMgBtn>
+              <Link
+                className="text-lg cursor-pointer transition ease-in-out duration-300 hover:text-light-blue-600"
+                color="foreground"
+                to="contact"
+                smooth={true}
+                duration={1000}
+              >
+                Contact
+              </Link>
+            </FramerMgBtn>
+          </NavbarItem> */}
+        {/* </NavbarContent>
+        <NavbarContent justify="end"></NavbarContent>
+      </div> */}
 
-      <NavbarMenu>
-          <NavbarMenuItem>
-            <Link href="/home" className='font-abc p-5 text-[1.3rem] text-black transition ease-in-out delay-150 hover:text-gray-500 duration-300'>
-              Home
-            </Link>
-          </NavbarMenuItem>
-          <NavbarMenuItem>
-            <Link href="/photos" className='font-abc p-5 text-[1.3rem] text-black transition ease-in-out delay-150 hover:text-gray-500 duration-300'>
-              Photos
-            </Link>
-          </NavbarMenuItem>
-          <NavbarMenuItem>
-            <Link href="/arts" className='font-abc p-5 text-[1.3rem] text-black transition ease-in-out delay-150 hover:text-gray-500 duration-300'>
-              Arts
-            </Link>
-          </NavbarMenuItem>
-          <NavbarMenuItem>
-            <Link href="/contact" className='font-abc p-5 text-[1.3rem] text-black transition ease-in-out delay-150 hover:text-gray-500 duration-300'>
-            Contact
-            </Link>
-          </NavbarMenuItem>
-      </NavbarMenu>
-      
+      <div>
+        <div className="pt-16 px-10 md:px-14 md:pb-14 md:pt-7 fixed right-0 z-30">
+          <FramerMgBtn>
+            <div
+              ref={burger}
+              onClick={() => {
+                setIsMenuActive(!isMenuActive);
+              }}
+              className="w-[80px] h-[80px] rounded-full transition-all ease-in-out hover:bg-gray-400 bg-white border-2 border-solid z-50 border-[#555555] cursor-pointer flex items-center justify-center"
+            >
+              <div
+                className={`${"burger"} ${isMenuActive ? "burgerActive" : ""}`}
+              ></div>
+            </div>
+          </FramerMgBtn>
+        </div>
+      </div>
+      <AnimatePresence mode="wait">{isMenuActive && <Nav />}</AnimatePresence>
     </Navbar>
-  )
+    </>
+  );
 }
-
-export default Navmenu

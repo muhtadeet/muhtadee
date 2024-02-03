@@ -1,8 +1,7 @@
 const { nextui } = require("@nextui-org/react");
-const defaultTheme = require('tailwindcss/defaultTheme')
-
+const withMT = require("@material-tailwind/react/utils/withMT");
 /** @type {import('tailwindcss').Config} */
-export default {
+export default withMT({
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -15,9 +14,13 @@ export default {
       two: ["Open Sans"],
       abc: ["Lato", "sans-serif"],
       reem: ["Reem Kufi", "sans-serif"],
+      ubuntu: ['Ubuntu', 'sans-serif'],
+      lato: ['Lato', 'sans-serif'],
+      generalSans: ['General Sans', 'sans-serif'],
+      allison: ['Allison', 'cursive'],
   },
   },
   darkMode: "class",
-  plugins: [nextui()],
-}
+  plugins: [nextui(), require("@xpd/tailwind-3dtransforms")],
+})
 
