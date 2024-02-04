@@ -2,6 +2,23 @@ import hylus from "./Photos/DSC_1113.jpg";
 import red from "./Photos/DSC_3623.jpg";
 import volupe from "./Photos/DSC_3799.jpg"
 import puka from "./Photos/DSC_4706.jpg"
+import port from "./Photos/DSC_0094.png"
+import dashing from "./Photos/DSC_0798.png"
+import mush from "./Photos/DSC_0090.png"
+import up from "./Photos/DSC_0786.png"
+import spud from "./Photos/DSC_6739.png"
+import bug from "./Photos/DSC_1350.png"
+import mushr from "./Photos/DSC_1436.png"
+import mantis from "./Photos/DSC_1658.png"
+import soldier from "./Photos/DSC_1590.png"
+import aesthetic from "./Photos/DSC_0315jejskg.png"
+import bubble from "./Photos/20210409-DSC_0528.png"
+import best from "./Photos/DSC_6344.png"
+import chris from "./Photos/DSC_111gjg1 (1).png"
+import eyes from "./Photos/DSC_0167.png"
+import mantis2 from "./Photos/20231212_162701_senbonzakura.png"
+import forth from "./Photos/20231211_122043_senbonzakura.png"
+
 import FramerMgBtn from "./FramerMgBtn";
 import Navmenu from "./Navmenu";
 // import Collage from "./Collage";
@@ -11,7 +28,7 @@ function Macro() {
   return (
     <>
       <Navmenu />
-      <div className="bg-black w-screen relative h-[110vh] -mb-5 -left-2">
+      <div className="bg-black w-screen relative -mb-5 -left-2">
         <div className="flex justify-center items-center -mt-20">
           <p className="text-center flex justify-center items-center text-4xl text-white transition-all ease-in-out h-80 font-lato">
             Macro
@@ -47,6 +64,134 @@ function Macro() {
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center"
                 src={puka}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[2rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={port}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={dashing}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[2rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={mush}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[1rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={up}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[1rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={spud}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[15rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={bug}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[1rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={mushr}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={mantis}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[16.8rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={soldier}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[28rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={aesthetic}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={bubble}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[15rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={best}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[17.7rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={chris}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[12.7rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={eyes}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[1rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={mantis2}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={forth}
               />
             </div>
           </div>
