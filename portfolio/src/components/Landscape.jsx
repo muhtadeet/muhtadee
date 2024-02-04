@@ -11,7 +11,7 @@ function Landscapes() {
   return (
     <>
       <Navmenu />
-      <div className="bg-black w-screen h-screen relative -left-2">
+      <div className="bg-black w-screen h-[110vh] relative -left-2 -mb-5">
         <div className="flex justify-center items-center -mt-20">
           <p className="text-center flex justify-center items-center text-4xl text-white transition-all ease-in-out h-80 font-lato">
             Landscape
