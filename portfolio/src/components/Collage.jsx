@@ -176,7 +176,7 @@ function Collage() {
           </a>
         </motion.div>
         <motion.div style={{ y: sm }} className="absolute mt-[86rem]">
-          <img src={logo} className="w-72" />
+          <img src={logo} className="w-72 pointer-events-none" />
         </motion.div>
       </motion.div>
     </>

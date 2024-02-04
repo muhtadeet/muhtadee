@@ -16,7 +16,7 @@ export default function Info() {
       <motion.div
         ref={container}
         style={{ y: sm }}
-        className="flex flex-col bg-[url('./components/Photos/IMG_0194.jpg')] bg-center bg-cover bg-black z-30 -mt-52 pt-10 w-screen h-[75vh] relative md:-left-2 justify-start items-center "
+        className="flex flex-col bg-[url('./components/Photos/IMG_0194.jpg')] bg-center bg-cover bg-black z-30 -mt-52 pt-10 w-screen h-[75vh] relative md:-left-2 justify-start items-center pointer-events-none"
       >
         <div className=" h-full w-full flex flex-row items-center">
           <div className="overflow-hidden h-[70vh] w-[80vh] rounded-2xl m-10 ml-60 drop-shadow-md">

@@ -116,12 +116,12 @@ export default function Home() {
         {/* <motion.div className="flex justify-center"> */}
         <motion.img
           style={{ y: sm }}
-          className="absolute xl:-left-0 w-[90%] -mt-5 md:-mt-40 md:w-[40%] xl:mt-40 xl:w-[100%] z-20 drop-shadow-[0_0_7px_rgba(0,0,0,0.55)]"
+          className="absolute xl:-left-0 w-[90%] -mt-5 md:-mt-40 md:w-[40%] xl:mt-40 xl:w-[100%] z-20 drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
           src={front}
           alt="photo"
         />
         <img
-          className="absolute xl:-left-0 w-[90%] -mt-5 md:-mt-40 md:w-[40%] xl:-mt-72 xl:w-[100%] drop-shadow-[0_0_7px_rgba(0,0,0,0.55)]"
+          className="absolute xl:-left-0 w-[90%] -mt-5 md:-mt-40 md:w-[40%] xl:-mt-72 xl:w-[100%] drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
           src={back}
           alt="photo"
         />
@@ -140,7 +140,7 @@ export default function Home() {
               once: true,
             }}
             style={{ y: smx }}
-            className="absolute w-[90%] -mt-5 md:-mt-40 md:w-[40%] xl:-mt-28 xl:w-[40%] drop-shadow-[0_0_7px_rgba(0,0,0,0.55)]"
+            className="absolute w-[90%] -mt-5 md:-mt-40 md:w-[40%] xl:-mt-28 xl:w-[40%] drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
             src={name}
             alt="photo"
           />

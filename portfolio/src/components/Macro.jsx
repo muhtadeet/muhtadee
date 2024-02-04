@@ -38,7 +38,7 @@ function Macro() {
           <div className="grid gap-4">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={hylus}
               />
             </div>
@@ -46,7 +46,7 @@ function Macro() {
           <div className="grid gap-4">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={red}
               />
             </div>
@@ -54,7 +54,7 @@ function Macro() {
           <div className="grid gap-4">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={volupe}
               />
             </div>
@@ -62,7 +62,7 @@ function Macro() {
           <div className="grid gap-4">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={puka}
               />
             </div>
@@ -70,7 +70,7 @@ function Macro() {
           <div className="grid gap-4 -mt-[2rem]">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={port}
               />
             </div>
@@ -78,7 +78,7 @@ function Macro() {
           <div className="grid gap-4">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={dashing}
               />
             </div>
@@ -86,7 +86,7 @@ function Macro() {
           <div className="grid gap-4 -mt-[2rem]">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={mush}
               />
             </div>
@@ -94,7 +94,7 @@ function Macro() {
           <div className="grid gap-4 -mt-[1rem]">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={up}
               />
             </div>
@@ -102,7 +102,7 @@ function Macro() {
           <div className="grid gap-4 -mt-[1rem]">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={spud}
               />
             </div>
@@ -110,7 +110,7 @@ function Macro() {
           <div className="grid gap-4 -mt-[15rem]">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={bug}
               />
             </div>
@@ -118,7 +118,7 @@ function Macro() {
           <div className="grid gap-4 -mt-[1rem]">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={mushr}
               />
             </div>
@@ -126,7 +126,7 @@ function Macro() {
           <div className="grid gap-4">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={mantis}
               />
             </div>
@@ -134,7 +134,7 @@ function Macro() {
           <div className="grid gap-4 -mt-[16.8rem]">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={soldier}
               />
             </div>
@@ -142,7 +142,7 @@ function Macro() {
           <div className="grid gap-4 -mt-[28rem]">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={aesthetic}
               />
             </div>
@@ -150,7 +150,7 @@ function Macro() {
           <div className="grid gap-4">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={bubble}
               />
             </div>
@@ -158,7 +158,7 @@ function Macro() {
           <div className="grid gap-4 -mt-[15rem]">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={best}
               />
             </div>
@@ -166,7 +166,7 @@ function Macro() {
           <div className="grid gap-4 -mt-[17.7rem]">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={chris}
               />
             </div>
@@ -174,7 +174,7 @@ function Macro() {
           <div className="grid gap-4 -mt-[12.7rem]">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={eyes}
               />
             </div>
@@ -182,7 +182,7 @@ function Macro() {
           <div className="grid gap-4 -mt-[1rem]">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={mantis2}
               />
             </div>
@@ -190,7 +190,15 @@ function Macro() {
           <div className="grid gap-4">
             <div>
               <img
-                className="h-auto max-w-full rounded-lg object-cover object-center"
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
+                src=""
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[31rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
                 src={forth}
               />
             </div>
