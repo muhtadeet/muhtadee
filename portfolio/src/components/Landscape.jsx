@@ -2,6 +2,22 @@ import sky from "./Photos/DSC_2166.png";
 import MilkyWay from "./Photos/20210914-DSC_0652cln.png";
 import House from "./Photos/the house.png"
 import Cloud from "./Photos/DSC_4838.png"
+import orion from "./Photos/The Orion.png"
+import cld from "./Photos/DSC_0978.png"
+import sangu from "./Photos/20211229-DSC_0558.png"
+import pahar from "./Photos/20211229-DSC_0783-1.png"
+import pata from "./Photos/DSC_0742.png"
+import phr from "./Photos/20210908-DSC_0224.png"
+import ghash from "./Photos/DSC_0818.png"
+import cycle from "./Photos/DSC_3712.png"
+import tree from "./Photos/DSC_8473~2.png"
+import building from "./Photos/IMG_20200117_090646-01-01 (2).png"
+import nodi from "./Photos/PXL_20220806_113206674.png"
+import boat from "./Photos/the boat.png"
+import tara from "./Photos/DSC_0695gfv.png"
+import night from "./Photos/DSC_2437.jpg"
+import rainbow from "./Photos/DSC_2399.png"
+import ghor from "./Photos/DSC_2356.png"
 import FramerMgBtn from "./FramerMgBtn";
 import Navmenu from "./Navmenu";
 // import Collage from "./Collage";
@@ -11,7 +27,7 @@ function Landscapes() {
   return (
     <>
       <Navmenu />
-      <div className="bg-black w-screen h-[110vh] relative -left-2 -mb-5">
+      <div className="bg-black w-screen relative -left-2 -mb-5">
         <div className="flex justify-center items-center -mt-20">
           <p className="text-center flex justify-center items-center text-4xl text-white transition-all ease-in-out h-80 font-lato">
             Landscape
@@ -47,6 +63,134 @@ function Landscapes() {
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center"
                 src={Cloud}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={orion}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[19.5rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={cld}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={sangu}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[16.2rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={pahar}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={pata}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[26rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={phr}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[8.6rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={ghash}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[6.8rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={ghor}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[9.2rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={cycle}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[19.4rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={tree}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[2rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={building}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={nodi}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[0.6rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={boat}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[16.2rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={tara}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[2rem]">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={night}
+              />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center"
+                src={rainbow}
               />
             </div>
           </div>
