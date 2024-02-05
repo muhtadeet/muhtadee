@@ -286,3 +286,8 @@
       /* transform: scale(2); */
       transform: rotate(20deg);
     }
+
+    html body{
+      max-width: 100%;
+      overflow-x: hidden;
+    }

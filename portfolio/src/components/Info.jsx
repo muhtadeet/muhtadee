@@ -16,7 +16,7 @@ export default function Info() {
       <motion.div
         ref={container}
         style={{ y: sm }}
-        className="flex flex-col bg-[url('./components/Photos/IMG_0194.jpg')] bg-center bg-cover bg-black z-10 -mt-36 -left-2 md:-mt-52 pt-10 w-screen h-[75vh] relative md:-left-2 xl:-left-2 justify-start items-center pointer-events-none"
+        className="flex flex-col bg-[url('./components/Photos/IMG_0194.jpg')] bg-center bg-cover bg-black z-30 -mt-36 -left-2 md:-mt-52 pt-10 w-screen h-[75vh] relative md:-left-2 xl:-left-2 justify-start items-center pointer-events-none"
       >
         <div className=" h-full w-full flex flex-row items-center">
           <div className="overflow-hidden md:h-[50vh] xl:h-[70vh] md:w-[40vw] xl:w-[80vh] rounded-2xl m-10 ml-60 drop-shadow-md">
@@ -28,7 +28,7 @@ export default function Info() {
         </div>
         <motion.div
           style={{ y: sm }}
-          className="foo flex flex-col w-screen justify-center items-center z-20 relative mt-[470px] sm:mt-56 xl:mt-36 mb-10 pt-10 bg-black text-white"
+          className="foo flex flex-col w-screen justify-center items-center z-40 relative mt-[470px] sm:mt-56 xl:mt-36 mb-10 pt-10 bg-black text-white"
         >
           <p className="text-base w-[21rem] font-ubuntu sm:w-[45rem] -mt-7 p-40">
             With an artist&apos;s eye and a meticulous touch, Taron weaves
