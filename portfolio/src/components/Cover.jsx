@@ -1,6 +1,7 @@
 import front from "./Photos/DSC_2737456.png";
 import back from "./Photos/DSC_0315jejsk.png";
 import name from "./Photos/Taron white.png";
+import pFront from "./Photos/DSC_2737456fgdhfgh.png"
 import { motion, useScroll, useTransform } from "framer-motion";
 import FramerMgBtn from "./FramerMgBtn";
 import { useRef } from "react";
@@ -116,7 +117,13 @@ export default function Home() {
         {/* <motion.div className="flex justify-center"> */}
         <motion.img
           style={{ y: sm }}
-          className="absolute xl:-left-0 -left-56 w-[200vw] mt-[55rem] md:mt-32 md:-left-5 md:w-[100%] xl:mt-40 xl:w-[100%] z-20 drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
+          className="block sm:hidden absolute xl:-left-0 -left-[25.6rem] w-[200vw] mt-[63rem] md:mt-32 md:-left-5 md:w-[100%] xl:mt-40 xl:w-[100%] z-20 drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
+          src={pFront}
+          alt="photo"
+        />
+        <motion.img
+          style={{ y: sm }}
+          className="absolute hidden sm:block xl:-left-0 -left-56 w-[200vw] mt-[55rem] md:mt-32 md:-left-5 md:w-[100%] xl:mt-40 xl:w-[100%] z-20 drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
           src={front}
           alt="photo"
         />
@@ -140,13 +147,13 @@ export default function Home() {
               once: true,
             }}
             style={{ y: smx }}
-            className="absolute w-[70%] ml-6 mt-[43rem] md:mt-5 md:w-[40%] md:ml-[46.5rem] xl:ml-0 xl:-mt-28 xl:w-[40%] drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
+            className="absolute w-[70%] ml-6 mt-[36.5rem] md:mt-5 md:w-[40%] md:ml-[46.5rem] xl:ml-0 xl:-mt-28 xl:w-[40%] drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
             src={name}
             alt="photo"
           />
         </motion.div>
         {/* </motion.div> */}
-        <div className=" hidden sm:block cursor-pointer z-40 fixed left-[20%] top-[60%] md:left-[45%] md:top-[80%] xl:top-[90%] hover:-ml-3 md:-ml-10 xl:ml-1 transition-all ease-in-out">
+        <div className=" hidden sm:block cursor-pointer z-40 fixed left-[20%] top-[60%] md:left-[45%] md:top-[86%] xl:top-[90%] hover:-ml-3 md:-ml-10 xl:ml-1 transition-all ease-in-out">
           <a
             target="_blank"
             href="mailto: muhtadeetaron@gmail.com"

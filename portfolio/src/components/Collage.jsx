@@ -43,7 +43,7 @@ function Collage() {
     },
     view3: {
       rotate: -8,
-      x: -360,
+      x: -160,
       y: -100,
       transition: {
         delay: 0.5,
@@ -83,7 +83,7 @@ function Collage() {
     },
     hover3: {
       rotate: -17,
-      x: -460,
+      x: -260,
       y: -80,
       transition: {
         delay: 0.1,
@@ -111,7 +111,7 @@ function Collage() {
       <motion.div
         ref={container}
         style={{ y: sm }}
-        className="bg-black relative flex justify-center items-center overflow-hidden -mt-52 xl:z-20 -mb-52 md:-mt-36 xl:-mt-52 w-screen -left-2 md:-left-2 h-[100vh] md:pt-60 xl:pt-40"
+        className="bg-black relative flex justify-center items-center overflow-hidden -mt-52 xl:z-20 -mb-64 md:-mt-36 xl:-mt-52 w-screen -left-2 md:-left-2 h-[100vh] md:pt-60 xl:pt-40"
       >
         <motion.div
           style={{ y: sm }}
@@ -145,7 +145,7 @@ function Collage() {
             }}
             whileHover="hover3"
           >
-            <img src={spider} className="absolute z-20 w-40 md:w-60 xl:w-80 ml-60 mt-52 xl:mt-96 md:mt-[23rem] md:ml-20 xl:ml-0 xl:-mb-28" />
+            <img src={spider} className="absolute z-20 w-40 md:w-60 xl:w-80 ml-10 mt-44 xl:mt-80 md:mt-[22rem] md:-ml-28 xl:-ml-48 xl:-mb-28" />
           </motion.div>
           <motion.div
             variants={buttonVariant}
