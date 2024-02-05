@@ -116,12 +116,12 @@ export default function Home() {
         {/* <motion.div className="flex justify-center"> */}
         <motion.img
           style={{ y: sm }}
-          className="absolute xl:-left-0 -left-56 w-[200%] mt-[53rem] md:mt-32 md:-left-5 md:w-[100%] xl:mt-40 xl:w-[100%] z-20 drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
+          className="absolute xl:-left-0 -left-56 w-[200vw] mt-[53rem] md:mt-32 md:-left-5 md:w-[100%] xl:mt-40 xl:w-[100%] z-20 drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
           src={front}
           alt="photo"
         />
         <img
-          className="absolute xl:-left-0 -left-56 w-[200%] mt-[23rem] md:-mt-[16rem] md:-left-0 md:w-[100%] xl:-mt-72 xl:w-[100%] drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
+          className="absolute xl:-left-0 -left-[25.711rem] w-[200%] mt-[23rem] md:-mt-[16rem] md:-left-0 md:w-[100%] xl:-mt-72 xl:w-[100%] drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
           src={back}
           alt="photo"
         />
@@ -146,7 +146,7 @@ export default function Home() {
           />
         </motion.div>
         {/* </motion.div> */}
-        <div className="cursor-pointer z-40 fixed left-[20%] top-[60%] md:left-[45%] md:top-[80%] xl:top-[90%] hover:-ml-3 md:-ml-10 xl:ml-1 transition-all ease-in-out">
+        <div className=" hidden sm:block cursor-pointer z-40 fixed left-[20%] top-[60%] md:left-[45%] md:top-[80%] xl:top-[90%] hover:-ml-3 md:-ml-10 xl:ml-1 transition-all ease-in-out">
           <a
             target="_blank"
             href="mailto: muhtadeetaron@gmail.com"

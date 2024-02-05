@@ -40,11 +40,11 @@ function Wildlife() {
       <Navmenu />
       <div className="bg-black w-screen -mb-5 relative -left-2">
         <div className="flex justify-center items-center -mt-20">
-          <p className="text-center flex justify-center items-center text-4xl text-white transition-all ease-in-out md:h-40 xl:h-80 font-lato">
+          <p className="text-center flex justify-center items-center text-4xl text-white transition-all ease-in-out h-40 md:h-40 xl:h-80 font-lato">
             Wildlife
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-4 md:mx-40 xl:mx-80 bg-black">
+        <div className="grid grid-cols-2 gap-4 md:grid-cols-4 mx-3 md:mx-40 xl:mx-80 bg-black">
           <div className="grid gap-4 xl:mt-0">
             <div>
               <img
@@ -69,7 +69,7 @@ function Wildlife() {
               />
             </div>
           </div>
-          <div className="grid gap-4 xl:mt-0">
+          <div className="grid gap-4 -mt-[10rem] md:mt-0 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -101,7 +101,7 @@ function Wildlife() {
               />
             </div>
           </div>
-          <div className="grid gap-4 xl:mt-0">
+          <div className="grid gap-4 -mt-[10rem] md:mt-0 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -109,7 +109,7 @@ function Wildlife() {
               />
             </div>
           </div>
-          <div className="grid gap-4 xl:mt-0">
+          <div className="grid gap-4 -mt-[1rem] md:mt-0 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -133,7 +133,7 @@ function Wildlife() {
               />
             </div>
           </div>
-          <div className="grid gap-4 xl:mt-0">
+          <div className="grid gap-4 -mt-[10rem] md:mt-0 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -213,7 +213,7 @@ function Wildlife() {
               />
             </div>
           </div>
-          <div className="grid gap-4 xl:-mt-[52rem] md:-mt-[28rem]">
+          <div className="grid gap-4 -mt-[9.5rem] xl:-mt-[52rem] md:-mt-[28rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -229,7 +229,7 @@ function Wildlife() {
               />
             </div>
           </div>
-          <div className="grid gap-4 xl:-mt-[18rem] md:-mt-[9.5rem]">
+          <div className="grid gap-4 -mt-[4rem] xl:-mt-[18rem] md:-mt-[9.5rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -245,7 +245,7 @@ function Wildlife() {
               />
             </div>
           </div>
-          <div className="grid gap-4 xl:-mt-[42.9rem] md:-mt-[23.3rem]">
+          <div className="grid gap-4 -mt-[15rem] xl:-mt-[42.9rem] md:-mt-[23.3rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -261,7 +261,7 @@ function Wildlife() {
               />
             </div>
           </div>
-          <div className="grid gap-4 xl:-mt-[36rem] md:-mt-[19.3rem]">
+          <div className="grid gap-4 -mt-[4rem] xl:-mt-[36rem] md:-mt-[19.3rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -285,7 +285,7 @@ function Wildlife() {
               />
             </div>
           </div>
-          <div className="grid gap-4 xl:-mt-[53.5rem] md:-mt-[28.8rem]">
+          <div className="grid gap-4 -mt-[2rem] xl:-mt-[53.5rem] md:-mt-[28.8rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -317,7 +317,15 @@ function Wildlife() {
               />
             </div>
           </div>
-          <div className="grid gap-4 xl:-mt-[41.7rem] md:-mt-[21.5rem]">
+          <div className="grid sm:hidden gap-4 xl:mt-0">
+            <div>
+              <img
+                className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
+                src=""
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 -mt-[10rem] xl:-mt-[41.7rem] md:-mt-[21.5rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
