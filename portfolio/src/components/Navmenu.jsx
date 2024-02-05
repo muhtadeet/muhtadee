@@ -20,7 +20,7 @@ export default function App() {
       <div className="flex justify-start cursor-pointer">
         <a
           href="/home"
-          className="fixed z-40 no-underline transition ease-in-out duration-300 hover:text-white text-white p-10 font-allison text-3xl md:text-4xl xl:text-5xl"
+          className="hidden sm:fixed z-40 no-underline transition ease-in-out duration-300 hover:text-white text-white p-10 font-allison text-3xl md:text-4xl xl:text-5xl"
         >
           Muhtadee Taron
         </a>
@@ -33,7 +33,7 @@ export default function App() {
         position="static"
       >
         <div>
-          <div className="pt-0 px-10 md:px-14 md:pb-14 md:pt-0 xl:pt-7 fixed right-44 xl:right-0 md:right-0 z-30">
+          <div className="pt-0 px-5 md:px-14 md:pb-14 md:pt-0 xl:pt-7 fixed left-0 xl:right-0 md:right-0 z-30">
             <FramerMgBtn>
               <div
                 ref={burger}
