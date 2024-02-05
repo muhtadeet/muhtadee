@@ -89,7 +89,7 @@ const TiltCard = () => {
 
   return (
     <>
-      <div className="flex flex-row md:mt-40 xl:mt-0 xl:mb-0 md:mb-60">
+      <div className="flex flex-col sm:flex-row mt-[20rem] md:mt-40 xl:mt-0 xl:mb-0 md:mb-60">
         <a href="/landscape">
           <motion.div
             variants={items}
@@ -102,7 +102,7 @@ const TiltCard = () => {
               rotateX,
               transformStyle: "preserve-3d",
             }}
-            className="relative md:h-72 xl:h-96 md:w-60 xl:w-80 rounded-xl"
+            className="relative h-72 w-60 md:h-72 xl:h-96 md:w-60 xl:w-80 rounded-xl"
             whileHover={{
               scale: 1.1,
               transition: { duration: 1 },
@@ -121,7 +121,7 @@ const TiltCard = () => {
                 style={{
                   transform: "translateZ(50px)",
                 }}
-                className="text-center flex justify-center items-center md:text-3xl xl:text-4xl text-white transition-all ease-in-out hover:bg-black/40 bg-black/20 md:h-72 xl:h-96 md:w-60 xl:w-80 font-lato font-bold"
+                className="text-center flex justify-center items-center md:text-3xl xl:text-4xl text-white transition-all ease-in-out hover:bg-black/40 bg-black/20 h-72 w-60 md:h-72 xl:h-96 md:w-60 xl:w-80 font-lato font-bold"
               >
                 Landscape
               </p>
@@ -140,7 +140,7 @@ const TiltCard = () => {
               rotateX,
               transformStyle: "preserve-3d",
             }}
-            className="relative md:h-72 xl:h-96 md:w-60 xl:w-80 rounded-xl md:mx-5 xl:mx-40"
+            className="relative h-72 w-60 md:h-72 xl:h-96 md:w-60 xl:w-80 rounded-xl md:mx-5 xl:mx-40"
             whileHover={{
               scale: 1.1,
               transition: { duration: 1 },
@@ -159,7 +159,7 @@ const TiltCard = () => {
                 style={{
                   transform: "translateZ(50px)",
                 }}
-                className="text-center flex justify-center items-center md:text-3xl xl:text-4xl text-white transition-all ease-in-out hover:bg-black/40 bg-black/20 md:h-72 xl:h-96 md:w-60 xl:w-80 font-lato font-bold"
+                className="text-center flex justify-center items-center md:text-3xl xl:text-4xl text-white transition-all ease-in-out hover:bg-black/40 bg-black/20 h-72 w-60 md:h-72 xl:h-96 md:w-60 xl:w-80 font-lato font-bold"
               >
                 Macro
               </p>
@@ -178,7 +178,7 @@ const TiltCard = () => {
               rotateX,
               transformStyle: "preserve-3d",
             }}
-            className="relative md:h-72 xl:h-96 md:w-60 xl:w-80 rounded-xl"
+            className="relative h-72 w-60 md:h-72 xl:h-96 md:w-60 xl:w-80 rounded-xl"
             whileHover={{
               scale: 1.1,
               transition: { duration: 1 },
@@ -197,7 +197,7 @@ const TiltCard = () => {
                 style={{
                   transform: "translateZ(50px)",
                 }}
-                className="text-center flex justify-center items-center md:text-3xl xl:text-4xl text-white transition-all ease-in-out hover:bg-black/40 bg-black/20 md:h-72 xl:h-96 md:w-60 xl:w-80 font-lato font-bold"
+                className="text-center flex justify-center items-center md:text-3xl xl:text-4xl text-white transition-all ease-in-out hover:bg-black/40 bg-black/20 h-72 w-60 md:h-72 xl:h-96 md:w-60 xl:w-80 font-lato font-bold"
               >
                 Wildlife
               </p>

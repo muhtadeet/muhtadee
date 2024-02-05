@@ -33,14 +33,14 @@ export default function About() {
       <motion.div
         ref={container}
         style={{ y: sm }}
-        className="foo flex w-screen md:-left-2 xl:-left-2 justify-center items-center z-20 relative mt-[550px] sm:mt-56 xl:-mt-[25rem] h-[110vh] mb-10 pt-10 bg-black"
+        className="foo flex w-screen -left-2 md:-left-2 xl:-left-2 justify-center items-center z-20 relative mt-[18rem] sm:mt-56 xl:-mt-[25rem] h-[110vh] pb-40 mb-10 md:mb-10 md:pt-10 bg-black"
       >
         <Grid />
       </motion.div>
       <motion.div
         ref={container}
         style={{ y: sm }}
-        className="foo2 flex justify-center items-center z-20 relative w-screen md:-left-2 h-20 -mt-11 bg-black"
+        className="foo2 flex justify-center items-center z-20 relative w-screen -left-2 md:-left-2 h-20 -mt-11 bg-black"
       ></motion.div>
     </>
   );

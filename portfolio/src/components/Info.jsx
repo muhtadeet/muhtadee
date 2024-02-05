@@ -16,7 +16,7 @@ export default function Info() {
       <motion.div
         ref={container}
         style={{ y: sm }}
-        className="flex flex-col bg-[url('./components/Photos/IMG_0194.jpg')] bg-center bg-cover bg-black z-30 -mt-52 pt-10 w-screen h-[75vh] relative md:-left-2 xl:-left-2 justify-start items-center pointer-events-none"
+        className="flex flex-col bg-[url('./components/Photos/IMG_0194.jpg')] bg-center bg-cover bg-black z-10 -mt-36 -left-2 md:-mt-52 pt-10 w-screen h-[75vh] relative md:-left-2 xl:-left-2 justify-start items-center pointer-events-none"
       >
         <div className=" h-full w-full flex flex-row items-center">
           <div className="overflow-hidden md:h-[50vh] xl:h-[70vh] md:w-[40vw] xl:w-[80vh] rounded-2xl m-10 ml-60 drop-shadow-md">
@@ -28,9 +28,9 @@ export default function Info() {
         </div>
         <motion.div
           style={{ y: sm }}
-          className="foo flex flex-col w-screen justify-center items-center z-20 relative mt-[550px] sm:mt-56 xl:mt-36 mb-10 pt-10 bg-black text-white"
+          className="foo flex flex-col w-screen justify-center items-center z-20 relative mt-[470px] sm:mt-56 xl:mt-36 mb-10 pt-10 bg-black text-white"
         >
-          <p className="text-base font-ubuntu w-[45rem] -mt-7 p-40">
+          <p className="text-base w-[21rem] font-ubuntu sm:w-[45rem] -mt-7 p-40">
             With an artist&apos;s eye and a meticulous touch, Taron weaves
             worlds both microscopic and immense. He delves into the hidden
             intricacies of the macro world, coaxing unseen beauty from the
@@ -49,10 +49,10 @@ export default function Info() {
         <motion.div
           ref={container}
           style={{ y: sm }}
-          className="absolute z-40 left-[30rem] top-[32rem]"
+          className="absolute z-40 md:left-[30rem] top-[33rem] md:top-[32rem]"
         >
           <motion.div>
-            <motion.div className="xl:ml-0 mt-24 sm:mt-0 md:-ml-80 md:mt-32 xl:mt-80 pt-5 font-allison md:text-8xl xl:text-9xl flex justify-center items-center rounded-full text-white transition-all ease-in-out duration-300 drop-shadow-xl">
+            <motion.div className="xl:ml-0 mt-24 sm:mt-0 md:-ml-80 md:mt-32 xl:mt-80 pt-5 font-allison text-5xl md:text-8xl xl:text-9xl flex justify-center items-center rounded-full text-white transition-all ease-in-out duration-300 drop-shadow-xl">
               About Taron
             </motion.div>
           </motion.div>

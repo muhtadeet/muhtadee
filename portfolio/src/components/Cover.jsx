@@ -63,7 +63,7 @@ export default function Home() {
         id="home"
         className="flex flex-col xl:mt-14 sm:mt-24 md:mt-12 md:mx-5 md:h-screen md:-mb-[32.5rem] xl:h-full justify-center xl:mx-5 xl:-mb-64"
       >
-        <div className="flex flex-col gap-5 md:-mt-[14rem] ml-7 sm:mt-0 sm:ml-0 md:justify-center z-40 md:m-1 xl:m-5 xl:justify-center xl:-mt-40 fixed">
+        <div className="flex flex-col gap-5 mt-[50rem] md:-mt-[14rem] ml-3 md:ml-7 sm:mt-0 sm:ml-0 md:justify-center z-40 md:m-1 xl:m-5 xl:justify-center xl:-mt-40 fixed">
           <FramerMgBtn>
             <a
               target="_blank"
@@ -116,12 +116,12 @@ export default function Home() {
         {/* <motion.div className="flex justify-center"> */}
         <motion.img
           style={{ y: sm }}
-          className="absolute xl:-left-0 w-[90%] -mt-5 md:mt-32 md:-left-5 md:w-[100%] xl:mt-40 xl:w-[100%] z-20 drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
+          className="absolute xl:-left-0 -left-56 w-[200%] mt-[53rem] md:mt-32 md:-left-5 md:w-[100%] xl:mt-40 xl:w-[100%] z-20 drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
           src={front}
           alt="photo"
         />
         <img
-          className="absolute xl:-left-0 w-[90%] -mt-5 md:-mt-[16rem] md:-left-0 md:w-[100%] xl:-mt-72 xl:w-[100%] drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
+          className="absolute xl:-left-0 -left-56 w-[200%] mt-[23rem] md:-mt-[16rem] md:-left-0 md:w-[100%] xl:-mt-72 xl:w-[100%] drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
           src={back}
           alt="photo"
         />
@@ -140,13 +140,13 @@ export default function Home() {
               once: true,
             }}
             style={{ y: smx }}
-            className="absolute w-[90%] -mt-5 md:mt-5 md:w-[40%] md:ml-[46.5rem] xl:ml-0 xl:-mt-28 xl:w-[40%] drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
+            className="absolute w-[70%] ml-6 mt-[43rem] md:mt-5 md:w-[40%] md:ml-[46.5rem] xl:ml-0 xl:-mt-28 xl:w-[40%] drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
             src={name}
             alt="photo"
           />
         </motion.div>
         {/* </motion.div> */}
-        <div className="cursor-pointer z-40 fixed left-[45%] md:top-[80%] xl:top-[90%] hover:-ml-3 md:-ml-10 xl:ml-1 transition-all ease-in-out">
+        <div className="cursor-pointer z-40 fixed left-[20%] top-[60%] md:left-[45%] md:top-[80%] xl:top-[90%] hover:-ml-3 md:-ml-10 xl:ml-1 transition-all ease-in-out">
           <a
             target="_blank"
             href="mailto: muhtadeetaron@gmail.com"
