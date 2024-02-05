@@ -117,7 +117,7 @@ export default function Home() {
         {/* <motion.div className="flex justify-center"> */}
         <motion.img
           style={{ y: sm }}
-          className="block sm:hidden absolute xl:-left-0 -left-[25.6rem] w-[200vw] mt-[63rem] md:mt-32 md:-left-5 md:w-[100%] xl:mt-40 xl:w-[100%] z-20 drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
+          className="block sm:hidden absolute xl:-left-0 -left-[25.8rem] w-[200vw] mt-[63rem] md:mt-32 md:-left-5 md:w-[100%] xl:mt-40 xl:w-[100%] z-20 drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
           src={pFront}
           alt="photo"
         />
@@ -128,7 +128,7 @@ export default function Home() {
           alt="photo"
         />
         <img
-          className="absolute xl:-left-0 -left-[25.711rem] w-[200%] mt-[23rem] md:-mt-[16rem] md:-left-0 md:w-[100%] xl:-mt-72 xl:w-[100%] drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
+          className="absolute xl:-left-0 -left-[25.73rem] w-[200%] mt-[23rem] md:-mt-[16rem] md:-left-0 md:w-[100%] xl:-mt-72 xl:w-[100%] drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
           src={back}
           alt="photo"
         />

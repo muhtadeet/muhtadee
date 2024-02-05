@@ -30,7 +30,7 @@ export default function Info() {
           style={{ y: sm }}
           className="foo flex flex-col w-screen justify-center items-center z-40 relative mt-[470px] sm:mt-56 xl:mt-36 mb-10 pt-10 bg-black text-white"
         >
-          <p className="text-base w-[21rem] font-ubuntu sm:w-[45rem] -mt-7 p-40">
+          <p className="text-base w-[21rem] font-ubuntu sm:w-[45rem] -mt-7 py-40">
             With an artist&apos;s eye and a meticulous touch, Taron weaves
             worlds both microscopic and immense. He delves into the hidden
             intricacies of the macro world, coaxing unseen beauty from the

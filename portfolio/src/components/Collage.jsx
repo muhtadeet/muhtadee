@@ -111,7 +111,7 @@ function Collage() {
       <motion.div
         ref={container}
         style={{ y: sm }}
-        className="bg-black relative flex justify-center items-center overflow-hidden -mt-52 xl:z-20 -mb-64 md:-mt-36 xl:-mt-52 w-screen -left-2 md:-left-2 h-[100vh] md:pt-60 xl:pt-40"
+        className="bg-black relative flex justify-center items-center overflow-hidden -mt-52 xl:z-20 -mb-96 md:-mt-36 xl:-mt-52 w-screen -left-2 md:-left-2 h-[100vh] md:pt-60 xl:pt-40"
       >
         <motion.div
           style={{ y: sm }}
