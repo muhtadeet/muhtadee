@@ -7,7 +7,7 @@ import { slide } from "./anim";
 function NavG() {
   return (
     <motion.div
-      className="relative flex flex-col -ml-28 sm:ml-0"
+      className="relative flex flex-col"
       variants={slide}
       initial="initial"
       animate="enter"

@@ -153,7 +153,7 @@ export default function Home() {
           />
         </motion.div>
         {/* </motion.div> */}
-        <div className=" hidden sm:block cursor-pointer z-40 fixed left-[20%] top-[60%] md:left-[45%] md:top-[86%] xl:top-[90%] hover:-ml-3 md:-ml-10 xl:ml-1 transition-all ease-in-out">
+        <div className="cursor-pointer z-40 fixed left-[29%] top-[90%] md:left-[45%] md:top-[86%] xl:top-[90%] hover:-ml-3 md:-ml-10 xl:ml-1 transition-all ease-in-out">
           <a
             target="_blank"
             href="mailto: muhtadeetaron@gmail.com"

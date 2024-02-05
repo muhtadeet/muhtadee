@@ -40,7 +40,7 @@ function Wildlife() {
       <Navmenu />
       <div className="bg-black w-screen -mb-5 relative -left-2">
         <div className="flex justify-center items-center -mt-20">
-          <p className="text-center flex justify-center items-center text-4xl text-white transition-all ease-in-out h-40 md:h-40 xl:h-80 font-lato">
+          <p className="text-center flex justify-center items-center text-4xl text-white transition-all ease-in-out h-60 md:h-40 xl:h-80 font-lato">
             Wildlife
           </p>
         </div>

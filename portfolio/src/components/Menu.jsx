@@ -35,9 +35,9 @@ function Menu() {
       className="h-[100%] w-screen bg-[#050411] fixed right-0 top-0 text-white"
     >
       <div className="box-border h-[100%] p-[100px] flex flex-col justify-between">
-        <div className="flex flex-col text-[56px] -ml-20 gap-3 mt-32 md:mt-0 md:-ml-2 xl:-ml-0 xl:mt-20">
+        <div className="flex flex-col text-[56px]  gap-3 mt-32 md:mt-0 md:-ml-2 xl:-ml-0 xl:mt-20">
           <div className="border-b-2 border-t-0 border-x-0 border-solid border-[#999999] uppercase text-xs xl:mb-10">
-            <p className="xl:flex xl:justify-center font-generalSans xl:mb-2">Navigation</p>
+            <p className="flex justify-center font-generalSans xl:mb-2">Navigation</p>
           </div>
             <NavG/>
         </div>
