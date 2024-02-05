@@ -116,7 +116,7 @@ export default function Home() {
         {/* <motion.div className="flex justify-center"> */}
         <motion.img
           style={{ y: sm }}
-          className="absolute xl:-left-0 -left-56 w-[200vw] mt-[53rem] md:mt-32 md:-left-5 md:w-[100%] xl:mt-40 xl:w-[100%] z-20 drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
+          className="absolute xl:-left-0 -left-56 w-[200vw] mt-[55rem] md:mt-32 md:-left-5 md:w-[100%] xl:mt-40 xl:w-[100%] z-20 drop-shadow-[0_0_7px_rgba(0,0,0,0.55)] pointer-events-none"
           src={front}
           alt="photo"
         />
