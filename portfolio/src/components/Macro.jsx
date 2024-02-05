@@ -30,12 +30,12 @@ function Macro() {
       <Navmenu />
       <div className="bg-black w-screen relative -mb-5 -left-2">
         <div className="flex justify-center items-center -mt-20">
-          <p className="text-center flex justify-center items-center text-4xl text-white transition-all ease-in-out h-80 font-lato">
+          <p className="text-center flex justify-center items-center text-4xl text-white transition-all ease-in-out md:h-40 xl:h-80 font-lato">
             Macro
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-4 mx-80 bg-black">
-          <div className="grid gap-4">
+        <div className="grid grid-cols-2 gap-4 md:grid-cols-4 md:mx-40 xl:mx-80 bg-black">
+          <div className="grid gap-4 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -43,7 +43,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4">
+          <div className="grid gap-4 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -51,7 +51,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4">
+          <div className="grid gap-4 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -59,7 +59,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4">
+          <div className="grid gap-4 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -67,7 +67,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[2rem]">
+          <div className="grid gap-4 xl:-mt-[2rem] md:-mt-[1rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -75,7 +75,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4">
+          <div className="grid gap-4 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -83,7 +83,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[2rem]">
+          <div className="grid gap-4 xl:-mt-[2rem] md:-mt-[1rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -91,7 +91,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[1rem]">
+          <div className="grid gap-4 xl:-mt-[1rem] md:-mt-[0.5rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -99,7 +99,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[1rem]">
+          <div className="grid gap-4 xl:-mt-[1rem] md:-mt-[0.5rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -107,7 +107,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[15rem]">
+          <div className="grid gap-4 xl:-mt-[15rem] md:-mt-[8rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -115,7 +115,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[1rem]">
+          <div className="grid gap-4 xl:-mt-[1rem] md:-mt-[0.5rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -123,7 +123,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4">
+          <div className="grid gap-4 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -131,7 +131,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[16.8rem]">
+          <div className="grid gap-4 xl:-mt-[16.8rem] md:-mt-[9rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -139,7 +139,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[28rem]">
+          <div className="grid gap-4 xl:-mt-[28rem] md:-mt-[16rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -147,7 +147,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4">
+          <div className="grid gap-4 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -155,7 +155,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[15rem]">
+          <div className="grid gap-4 xl:-mt-[15rem] md:-mt-[8rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -163,7 +163,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[17.7rem]">
+          <div className="grid gap-4 xl:-mt-[17.7rem] md:-mt-[9.5rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -171,7 +171,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[12.7rem]">
+          <div className="grid gap-4 xl:-mt-[12.7rem] md:-mt-[7.7rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -179,7 +179,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[1rem]">
+          <div className="grid gap-4 xl:-mt-[1rem] md:-mt-[0.5rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -187,7 +187,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4">
+          <div className="grid gap-4 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -195,7 +195,7 @@ function Macro() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[31rem]">
+          <div className="grid gap-4 xl:-mt-[31rem] md:-mt-[16.5rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -256,7 +256,7 @@ function Macro() {
         </FramerMgBtn>
       </div>
 
-      <div className="cursor-pointer z-40 fixed left-[45%] top-[90%] hover:-ml-3 ml-1 transition-all ease-in-out">
+      {/* <div className="cursor-pointer z-40 fixed left-[45%] top-[90%] hover:-ml-3 ml-1 transition-all ease-in-out">
         <a
           target="_blank"
           href="mailto: muhtadeetaron@gmail.com"
@@ -281,7 +281,7 @@ function Macro() {
             </span>
           </div>
         </a>
-      </div>
+      </div> */}
     </>
   );
 }

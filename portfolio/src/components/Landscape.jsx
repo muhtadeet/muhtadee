@@ -29,12 +29,12 @@ function Landscapes() {
       <Navmenu />
       <div className="bg-black w-screen relative -left-2 -mb-5">
         <div className="flex justify-center items-center -mt-20">
-          <p className="text-center flex justify-center items-center text-4xl text-white transition-all ease-in-out h-80 font-lato">
+          <p className="text-center flex justify-center items-center text-4xl text-white transition-all ease-in-out md:h-40 xl:h-80 font-lato">
             Landscape
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-4 mx-80 bg-black">
-          <div className="grid gap-4">
+        <div className="grid grid-cols-2 gap-4 md:grid-cols-4 md:mx-40 xl:mx-80 bg-black">
+          <div className="grid gap-4 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -42,7 +42,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4">
+          <div className="grid gap-4 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -50,7 +50,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4">
+          <div className="grid gap-4 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -58,7 +58,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4">
+          <div className="grid gap-4 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -66,7 +66,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4">
+          <div className="grid gap-4 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -74,7 +74,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[19.5rem]">
+          <div className="grid gap-4 xl:-mt-[19.5rem] md:-mt-[10.5rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -82,7 +82,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4">
+          <div className="grid gap-4 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -90,7 +90,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[16.2rem]">
+          <div className="grid gap-4 xl:-mt-[16.2rem] md:-mt-[8.7rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -98,7 +98,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4">
+          <div className="grid gap-4 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -106,7 +106,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[26rem]">
+          <div className="grid gap-4 xl:-mt-[26rem] md:-mt-[14rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -114,7 +114,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[8.6rem]">
+          <div className="grid gap-4 xl:-mt-[8.6rem] md:-mt-[4.6rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -122,7 +122,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[6.8rem]">
+          <div className="grid gap-4 xl:-mt-[6.8rem] md:-mt-[3.5rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -130,7 +130,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[9.2rem]">
+          <div className="grid gap-4 xl:-mt-[9.2rem] md:-mt-[5rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -138,7 +138,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[19.4rem]">
+          <div className="grid gap-4 xl:-mt-[19.4rem] md:-mt-[10.5rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -146,7 +146,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[2rem]">
+          <div className="grid gap-4 xl:-mt-[2rem] md:-mt-[1rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -154,7 +154,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4">
+          <div className="grid gap-4 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -162,7 +162,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[0.6rem]">
+          <div className="grid gap-4 xl:-mt-[0.6rem] md:-mt-[0.5rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -170,7 +170,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[16.2rem]">
+          <div className="grid gap-4 xl:-mt-[16.2rem] md:-mt-[8.8rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -178,7 +178,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4 -mt-[2rem]">
+          <div className="grid gap-4 xl:-mt-[2rem] md:-mt-[1rem]">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -186,7 +186,7 @@ function Landscapes() {
               />
             </div>
           </div>
-          <div className="grid gap-4">
+          <div className="grid gap-4 xl:mt-0">
             <div>
               <img
                 className="h-auto max-w-full rounded-lg object-cover object-center pointer-events-none"
@@ -247,7 +247,7 @@ function Landscapes() {
         </FramerMgBtn>
       </div>
 
-      <div className="cursor-pointer z-40 fixed left-[45%] top-[90%] hover:-ml-3 ml-1 transition-all ease-in-out">
+      {/* <div className="cursor-pointer z-40 fixed left-[45%] top-[90%] hover:-ml-3 ml-1 transition-all ease-in-out">
         <a
           target="_blank"
           href="mailto: muhtadeetaron@gmail.com"
@@ -272,7 +272,7 @@ function Landscapes() {
             </span>
           </div>
         </a>
-      </div>
+      </div> */}
     </>
   );
 }

@@ -17,7 +17,7 @@ function NavG() {
       <motion.a
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
-        className="cursor-pointer no-underline md:text-5xl xl:text-8xl mb-10 transition ease-in-out duration-300 hover:text-brown-200 hovert-5 flex justify-center pb-5 text-white w-full font-ubuntu font-semibold"
+        className="cursor-pointer no-underline md:text-5xl xl:text-8xl md:-mb-2 xl:mb-10 transition ease-in-out duration-300 hover:text-brown-200 hovert-5 flex justify-center pb-5 text-white w-full font-ubuntu font-semibold"
         size="lg"
         // onClick={() => scroll.scrollToTop()}
         href="/home"
@@ -30,7 +30,7 @@ function NavG() {
       <motion.a
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
-        className="cursor-pointer no-underline md:text-5xl xl:text-8xl mb-10 transition ease-in-out duration-300 hover:text-brown-200 pt-5 xl:-mt-5 flex justify-center pb-5 text-white w-full font-ubuntu font-semibold"
+        className="cursor-pointer no-underline md:text-5xl xl:text-8xl md:-mb-2 xl:mb-10 transition ease-in-out duration-300 hover:text-brown-200 pt-5 xl:-mt-5 flex justify-center pb-5 text-white w-full font-ubuntu font-semibold"
         href="/landscape"
         size="lg"
         smooth={true}
@@ -42,7 +42,7 @@ function NavG() {
       <motion.a
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
-        className="cursor-pointer no-underline md:text-5xl xl:text-8xl mb-10 transition ease-in-out duration-300 hover:text-brown-200 pt-5 xl:-mt-5 flex justify-center pb-5 text-white w-full font-ubuntu font-semibold"
+        className="cursor-pointer no-underline md:text-5xl xl:text-8xl md:-mb-2 xl:mb-10 transition ease-in-out duration-300 hover:text-brown-200 pt-5 xl:-mt-5 flex justify-center pb-5 text-white w-full font-ubuntu font-semibold"
         href="/macro"
         size="lg"
         smooth={true}
@@ -54,7 +54,7 @@ function NavG() {
       <motion.a
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
-        className="cursor-pointer no-underline md:text-5xl xl:text-8xl mb-10 transition ease-in-out duration-300 hover:text-brown-200 pt-5 xl:-mt-5 flex justify-center pb-5 text-white w-full font-ubuntu font-semibold"
+        className="cursor-pointer no-underline md:text-5xl xl:text-8xl md:-mb-2 xl:mb-10 transition ease-in-out duration-300 hover:text-brown-200 pt-5 xl:-mt-5 flex justify-center pb-5 text-white w-full font-ubuntu font-semibold"
         href="/wildlife"
         size="lg"
         smooth={true}

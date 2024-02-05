@@ -111,7 +111,7 @@ function Collage() {
       <motion.div
         ref={container}
         style={{ y: sm }}
-        className="bg-black relative flex justify-center items-center z-20 -mt-52 w-screen md:-left-2 h-[100vh] pt-40"
+        className="bg-black relative flex justify-center items-center xl:z-20 md:-mt-36 xl:-mt-52 w-screen md:-left-2 h-[100vh] md:pt-60 xl:pt-40"
       >
         <motion.div
           style={{ y: sm }}
@@ -125,7 +125,7 @@ function Collage() {
             }}
             whileHover="hover"
           >
-            <img src={sky} className="absolute z-30 h-72 -ml-32" />
+            <img src={sky} className="absolute z-30 md:h-52 xl:h-72 md:-ml-20 md:mt-20 xl:mt-0 xl:-ml-32" />
           </motion.div>
           <motion.div
             variants={buttonVariant}
@@ -135,7 +135,7 @@ function Collage() {
             }}
             whileHover="hover2"
           >
-            <img src={MilkyWay} className="absolute z-40 w-80 mt-32" />
+            <img src={MilkyWay} className="absolute z-40 md:w-60 md:mt-44 xl:w-80 xl:mt-32" />
           </motion.div>
           <motion.div
             variants={buttonVariant}
@@ -145,7 +145,7 @@ function Collage() {
             }}
             whileHover="hover3"
           >
-            <img src={spider} className="absolute z-20 w-80 mt-96 -mb-28" />
+            <img src={spider} className="absolute z-20 md:w-60 xl:w-80 xl:mt-96 md:mt-[23rem] md:ml-20 xl:ml-0 xl:-mb-28" />
           </motion.div>
           <motion.div
             variants={buttonVariant}
@@ -155,18 +155,18 @@ function Collage() {
             }}
             whileHover="hover4"
           >
-            <img src={eagle} className="absolute h-72 mt-72" />
+            <img src={eagle} className="absolute md:h-52 xl:h-72 md:mt-72 xl:mt-72" />
           </motion.div>
           <motion.div>
             <img
               src={stars}
-              className="absolute -z-30 -ml-96 mt-40 star w-[40vw]"
+              className="absolute -z-30 md:-ml-56 xl:-ml-96 mt-40 star md:w-[50vw] xl:w-[40vw]"
             />
           </motion.div>
         </motion.div>
         <motion.div
           style={{ y: sm }}
-          className="text-white font-lato mt-[47rem]"
+          className="text-white font-lato md:mt-[36rem] xl:ml-0 xl:mt-[47rem]"
         >
           <a
             href="/landscape"
@@ -175,7 +175,7 @@ function Collage() {
             View More -&gt;
           </a>
         </motion.div>
-        <motion.div style={{ y: sm }} className="absolute mt-[86rem]">
+        <motion.div style={{ y: sm }} className="absolute md:-ml-7 xl:ml-0 md:mt-[89rem] xl:mt-[86rem]">
           <img src={logo} className="w-72 pointer-events-none" />
         </motion.div>
       </motion.div>
